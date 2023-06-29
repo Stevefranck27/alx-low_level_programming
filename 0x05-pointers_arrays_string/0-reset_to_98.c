@@ -1,8 +1,12 @@
+#include "main.h"
 /**
- * Reset o 98- updates the value of the paremeter to 98
- * integer pointer to a variable to be updated
- * returning:nothinig
- */
+*reset_to_98 - reset value of an integer to 98
+*@n: parameter targeted
+*Return : nothing
+*/
+
 void reset_to_98(int *n)
-	*n=98;
+{
+*n = 98;
+}
 
